@@ -1,10 +1,10 @@
 package org.garatea.server.model;
 
 public enum ContactType {
-	GENERIC(1),
-	PARTNER(2),
-	VOLUNTEER(3),
-	HUB(4);
+	GENERIC(0),
+	PARTNER(1),
+	VOLUNTEER(2),
+	HUB(3);
 	
 	final private int numVal;
 

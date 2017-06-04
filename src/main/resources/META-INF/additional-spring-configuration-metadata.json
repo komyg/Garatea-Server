@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "garatea.mail.partner",
+    "type": "java.lang.String",
+    "description": "Recipient e-mail address for the partner related messages."
+  },
+  {
+    "name": "garatea.mail.default",
+    "type": "java.lang.String",
+    "description": "Recipient e-mail address for all generic messages."
+  },
+  {
+    "name": "garatea.mail.volunteer",
+    "type": "java.lang.String",
+    "description": "Recipient e-mail address for the partner volunteer messages."
+  },
+  {
+    "name": "garatea.mail.hub",
+    "type": "java.lang.String",
+    "description": "Recipient e-mail address for the hub related messages."
+  }
+]}

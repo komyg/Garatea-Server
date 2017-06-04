@@ -27,7 +27,8 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 @AutoConfigureMockMvc
 public class EmailControllerTest {
 	
-	@Autowired MockMvc mvc;
+	@Autowired 
+	private MockMvc mvc;
 	
 	@MockBean
 	private EmailService emailService;

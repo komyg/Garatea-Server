@@ -42,6 +42,7 @@ public class EmailServiceImpl implements EmailService {
 		// Format message content.
 		messageText.append("Nome: " + data.getSenderName() + "\n");
 		messageText.append("Email: " + data.getSenderEmail() + "\n");
+		messageText.append("Tipo: " + data.getType() + "\n");
 		messageText.append("\n");
 		messageText.append(data.getMessage());
 		messageText.append("\n\n");
