@@ -24,7 +24,7 @@ This service consumes data as `application/json` with the following properties:
 * **senderName:** name of the person that is sending the contact request.
 * **subject:** subject of the e-mail.
 * **message:** the contents of the e-mail.
-* **type:** integer containing the message type. Each type will route the message to a different recipient e-mail. Each type is described below:
+* **type:** integer containing the message type. Each type will route the message to a different recipient e-mail (see the supported values below).
 	* **0:** Generic all purpose message.
 	* **1:** Partner type message.
 	* **2:** Volunteer type message.
