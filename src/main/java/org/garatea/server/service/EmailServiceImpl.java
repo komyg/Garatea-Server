@@ -37,12 +37,12 @@ public class EmailServiceImpl implements EmailService {
 		StringBuilder messageText = new StringBuilder();
 		String recipient = getEmailRecipient(data.getType());
 		
-		logger.debug("Sending message to: " + recipient);
+		logger.info("Sending message to: " + recipient);
 		
 		// Format message content.
 		messageText.append("Nome: " + data.getSenderName() + "\n");
 		messageText.append("Email: " + data.getSenderEmail() + "\n");
-		messageText.append("Tipo: " + data.getType() + "\n");
+		//messageText.append("Tipo: " + data.getType() + "\n");
 		messageText.append("\n");
 		messageText.append(data.getMessage());
 		messageText.append("\n\n");
@@ -56,7 +56,7 @@ public class EmailServiceImpl implements EmailService {
 		message.setText(messageText.toString());
 		emailSender.send(message);
 		
-		logger.debug("Message successfully sent to: " + recipient);
+		logger.info("Message successfully sent to: " + recipient);
 	}
 	
 	/**
